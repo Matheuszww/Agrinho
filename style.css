@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #D62828;
+    --cor-destaque: #fa2e2e;
+    --cor-titulos: #9b1200;
+}
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5, h6 {
+    color: var(--cor-titulos);
+    font-weight: 700;
+}
+
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+.card-title{
+    color: var(--cor-titulos);
+}
+
+
+.bandeirinhas {
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .bandeirinhas img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    display: block;
+    object-fit: cover;
+  }
